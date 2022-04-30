@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+/*.card{
+  background-color:black;
+  height:383px;
+  width:300px;
+  margin-bottom:30px;
+  box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius:2px;
+  transition:all 0.5s ease;
+  font-weight:100;
+  overflow:hidden;
+  text-align:center;
+  position:relative;
+  left:-29px;
+  float:left;
+  margin-left:8px;
+  top:150px;
+}
+.card:hover{
+  margin-top:-5px;
+  box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}*/
+body{
+  margin:0;
+  background-color:#1c2333;
+  position:absolute;
+  margin-left:250px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  color:white;
+}
+html{
+  scroll-behavior:smooth;
+}
+.Welcome-page{
+  color:white;
+  position:fixed;
+  width:1344px;
+  background-image:url(concrete_wall.png);
+  height:772px;
+  margin-left:-10px;
+  text-align:center;
+  background-position:center;
+  background-size:cover;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.Welcome-page h1{
+  position:relative;
+  top:300px;
+}
+.Profile-nav{
+  background-image:url(vintage-wallpaper.png);
+  position:fixed;
+  width:258px;
+  height:1000px;
+  z-index:1;
+  top:-4px;
+  margin-left:-250px;
+}
+.Profile-nav h2{
+  position:relative;
+  top:40px;
+  left:20px;
+  font-size:33px;
+  color:white;
+}
+.about-me{
+  width:1350px;
+  height:751px;
+  background-image:url(prism.png);
+  position:relative;
+  bottom:-751px;
+  background-position:center;
+  margin-left:-10px;
+  text-align:center;
+}
+.bg-cover{
+  height:1000px;
+  margin:0px;
+  padding:0px;
+  position:relative;
+  top:-20px;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.main-pfp{
+  width:198px;
+  border-radius:59%;
+  position:relative;
+  left:25px;
+  top:50px;
+}
+.about-me_text{
+  position:relative;
+  top:26px;
+  text-align:center;
+}
+a{
+  color:whitesmoke;
+  text-decoration:none;
+  font-size:16px;
+}
+a:hover{
+  transition:10ms;
+  color:#1fc7ff;
+  text-decoration:none;
+  font-size:18px;
+}
+ul li{
+  position:relative;
+  list-style:none;
+  line-height:32px;
+}
+.Main-nav{
+  position:relative;
+  top:18px;
+  left:-12px;
+}
+.Contact-page a{
+  color:black;
+}
+.projects{
+  position:absolute;
+  top:1525px;
+  margin-left:5px;
+  background-image:url(hotel-wallpaper-black.png);
+  width:100%;
+  height:768px;
+  text-align:center;
+  z-index:0;
+  background-repeat:repeat;
+}
+/*.card button{
+  margin-top:70px;
+  width:249px;
+  height:36px;
+  position:relative;
+  top:73px;
+}*/
+.about-me_text  p{
+  font-size:1.4vw;
+  text-align:center;
+  position:relative;
+  top:205px;
+}
+#vid{
+  opacity:0.5;
+  object-fit:cover;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+/*.Card-context{
+  position:relative;
+  top:-398px;
+  font-size:27px;
+}*/
+/*.yeet{
+  position:relative;
+  top:21px;
+  text-align:center;
+}
+.yeet h2{
+  position:relative;
+  top:270px;
+  font-size:39px;
+}
+.yeet h1{
+  position:relative;
+  top:233px;
+}*/
+#iyq7ec{
+  color:black;
+}
+.row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#isi06f{
+  float:right;
+}
+#i6surc{
+  height:95px;
+}
+#ieu74r{
+  padding:0 3px 14px 11px;
+  transform:0 0 0 1 scaleY(6) scaleZ(6);
+  float:none;
+  margin:119px 29px 0 -355px;
+  font-weight:900;
+  line-height:42px;
+  text-align:center;
+  text-decoration:none;
+  font-size:36px;
+}
+#iwkunh{
+  padding:0 3px 21px 11px;
+  transform:0 0 0 1 scaleY(6) scaleZ(6);
+  float:none;
+  margin:2px 29px -1px -355px;
+  font-weight:900;
+  line-height:42px;
+  text-align:center;
+  text-decoration:none;
+  font-size:36px;
+}
+#i4ej1p{
+  padding:0 0 0 0;
+  margin:-23px -15px -53px -388px;
+  display:inline-block;
+  font-size:32px;
+  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  color:#d9efd8;
+  line-height:63px;
+  text-align:center;
+}
+#Home{
+position: relative;
+    width: 1748px;
+    height: 1050px;
+    margin: -390px 0 0 -10px;
+
+}
+#insej{
+  image: url('concrete_wall.png');
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.98;
+    top: 369px;
+    margin: -4px 0 0 0;
+
+}
+#i2xh6{
+  padding:3px 0 10px 91px;
+}
+#ix9zl{
+  text-align:center;
+  padding:0 330px 0 0;
+}
+#project-i{
+  image: url('hotel-wallpaper-black.png');
+background-repeat: repeat;
+    top: 1528px;
+    margin: -144px 0 0 -3px;
+    padding: 0 0 0 0;
+    height: 1037px;
+}
+#AboutMeMain{
+  image:url('prism.png');
+background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+    bottom: 157px;
+    height: 733px;
+    margin: 159px 0 100px -12px;
+    width: 1743px;
+    min-height: 0;
+
+}
+#ikbnl{
+  padding:0 381px 0 0;
+}
+#i67yi{
+  height:0;
+  min-height:0;
+  margin:60px 5px 0 0;
+  padding:0 417px 0 0;
+}
+#iz87ro{
+  margin:432px 0 0 0;
+  padding:0 801px 3px 44px;
+}
+#i3laj2{
+  flex-basis:127%;
+  min-height:74px;
+}
+
+.card-list-content {
+  position: relative;
+  top: 126px;
+}
+.card-main-text{
+
+    text-align: center;
+    position: relative;
+    left: -485px;
+    top: -122px;
+
+}
+@media (max-width: 768px){
+  .row{
+    flex-wrap:wrap;
+  }
+}
+
+
+.card-image {
+    border: #22627b solid 2px;
+    height: 100px;
+    position: relative;
+    left: -600px;
+    width: 100px;
+    top: 8px;
+
+}
+
+.card-paragraph {
+    position: relative;
+    left: 111px;
+    top: -147px;
+}
+
+.card-main {
+    border: #22627b solid 2px;
+    height: 120px;
+    position: relative;
+    left: 230px;
+    width: 1311px;
+}
+
+.card-list-content  ul li {
+  margin-bottom: 40px;
+}

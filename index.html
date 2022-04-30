@@ -1,13 +1,122 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+  
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script type="text/javascript">
-
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tanvir</title>
+    <link href="style.css" rel="stylesheet"            type="text/css" />
   </head>
-  <body>
-      <h1>welzcome to de test website</h1>
-  </body>
+
+ <body id="iuqf">
+   <div id="i3hs" class="Profile-nav">
+    <br/>
+    <img id="iyq7ec" src="data:image/jpeg;base64,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" class="main-pfp"/>
+    <div id="ilfg" class="row">
+    </div>
+    <h2 id="iuya">Tanvir Ahmed
+    </h2>
+    <div class="Main-nav">
+      <ul>
+        <li id="i0gu">
+          <a href="#Home" id="in126">Home</a>
+        </li>
+        <nobr>
+          <li id="ij2k1">
+            <a href="#AboutMeMain" id="iy7qg">About-me</a>
+          </li>
+          <li id="ik4p9">
+            <a href="#project-i" id="iem2a">Projects</a>
+          </li>
+          <li id="i7gtm">
+            <a id="ct">Contact me</a>
+          </li>
+        </nobr>
+      </ul>
+    </div>
+    <nobr>
+    </nobr>
+  </div>
+  <nobr id="izgyb">
+    <div id="Home" class="Welcome-page">
+      <div id="insej" class="bg-cover">
+        <div id="ia3z8" class="yeet">
+          <h1 id="L">
+          </h1>
+        </div>
+        <div id="i6surc" class="row">
+          <div id="isi06f" class="cell">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+        <div id="i2xh6" class="row">
+          <div id="iv693" class="cell">
+          </div>
+          <div id="ilfyyu" class="cell">
+            <div id="iwfpi" class="row">
+              <div id="ihzj2f" class="cell">
+                <div id="ieu74r">Welcome to my 
+                  <span id="ihfmhd"></span>website
+                  <span id="i63hl9"></span>
+                  <br/>
+                </div>
+                <div id="iwkunh">I&#039;m 
+                  <u>Tanvir Ahmed
+                  </u> and I am a: 
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="imlzsa" class="cell">
+          </div>
+        </div>
+        <div id="i4ej1p">
+        </div>
+      </div>
+    </div>
+    <div id="AboutMeMain" class="about-me">
+      <div id="iwlvp" class="about-me_text">
+        <h1 id="ikbnl">About Me
+        </h1>
+        <p id="ix9zl">I am Tanvir Ahmed and I am a Game Developer. 
+          <br/> I am working with Unity for over 4 years 
+          <br/>and I love learning new tools and techniques. I am good listener and also good with communication. 
+          <br/>I am always curious, hard working and always exploring.
+        </p>
+      </div>
+    </div>
+    <div id="project-i" class="projects">
+      <h1 id="i67yi">Projects
+      </h1>
+      <div class = "Project-heading"></div>
+
+      <div class = "card-list-content">
+        <ul>
+          <li>
+            <div class = "card-main">
+            <img class = "card-image" src="Pfp.jpg"><h2 class ="card-main-text">Main Topic</h2>
+              <p class = "card-paragraph">this is just some test. I have no idea why i am writing it but i want to make it as long as possible because i want to add some responsice ness to it or else its kinda useless ig ;-;. Anyways i think this is long enough.</p>
+            </div>
+          </li>
+
+
+
+           <li>
+            <div class = "card-main">
+            <img class = "card-image" src="Pfp.jpg"><h2 class ="card-main-text">Main Topic</h2>
+              <p class = "card-paragraph">this is just some test. I have no idea why i am writing it but i want to make it as long as possible because i want to add some responsice ness to it or else its kinda useless ig ;-;. Anyways i think this is long enough.</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    
+  </nobr>
+   <script src = "script.js"></script>
+</body>
+<head>
 </html>
+
